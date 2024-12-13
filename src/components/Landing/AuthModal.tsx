@@ -53,7 +53,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, mode, onSwitchMo
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-md z-50"
+            className="fixed top-1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-md z-50"
             onClick={e => e.stopPropagation()}
           >
             <div className="bg-gray-900 rounded-2xl shadow-xl p-8 border border-gray-800">
